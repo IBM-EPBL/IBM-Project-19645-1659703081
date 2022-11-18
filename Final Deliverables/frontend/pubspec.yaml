@@ -1,0 +1,56 @@
+name: personal_expense_tracker
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_native_splash: ^2.2.14
+  flutter_riverpod: ^2.1.1
+  flutter_svg: ^1.1.6
+  fl_chart: ^0.55.2
+  http: ^0.13.5
+  isar: ^3.0.2
+  isar_flutter_libs: ^3.0.2
+  url_launcher: ^6.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  isar_generator: ^3.0.2
+  build_runner: ^2.3.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/
+   - assets/icons/
+   - assets/fonts/
+
+  fonts:
+   - family: Inter
+     fonts:
+       - asset: assets/fonts/Inter-Regular.ttf
+       - asset: assets/fonts/Inter-Medium.ttf
+         weight: 500
+       - asset: assets/fonts/Inter-SemiBold.ttf
+         weight: 600
+       - asset: assets/fonts/Inter-Bold.ttf
+         weight: 700
+
+flutter_native_splash:
+  color: "#7F3DFF"
+  color_dark: "#7F3DFF"
+  android_12:
+    color: "#7F3DFF"
+    color_dark: "#7F3DFF"
